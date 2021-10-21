@@ -7,4 +7,5 @@
 - [ ] Handle errors along with validation(display errors on login/signup page)
 - [ ] Setup user auth
 
-## Signup Page> Include firstname and lastname fields
+## Signup Page
+Features > Include firstname >and lastname fields
