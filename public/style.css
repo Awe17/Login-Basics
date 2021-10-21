@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top left,rgba(153, 31, 223, 0.781) 0% ,rgba(31, 146, 223, 0.781) 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-head{
+    color: #5e5b5b;
+}
+.container{
+    min-width: 380px;
+    min-height: 400px;
+    border-radius: 9px;
+    text-align: center;
+    background-color: white;
+    box-shadow: -1px 2px 15px 3px rgba(74,74,74,0.64);
+    -webkit-box-shadow: -1px 2px 15px 3px rgba(74,74,74,0.64);
+    -moz-box-shadow: -1px 2px 15px 3px rgba(74,74,74,0.64);
+} 
+
+.container input{
+    border: none;
+    border-bottom: 2px solid #beb8b8dc;
+    margin: 15 0;
+    min-height: 30px;
+    min-width: 300px;
+    outline: none;
+
+}
+
+form{
+    padding: 20px;
+    font-size: 15px;
+}
+
+#forgotpwd{
+    
+    text-align: left;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+#forgotpwd a{
+    text-decoration: none;
+    color: #beb8b8dc;
+}
+
+p{
+    color: #5e5b5b;
+}
+
+::placeholder{
+    color:#beb8b8dc;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+p a[href="/signup"]{
+    text-decoration: none;
+    color: rgba(31, 146, 223, 0.781);
+}
+
+#submit{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(31, 146, 223, 0.781);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-color: #fff;
+    color: rgba(31, 146, 223, 0.781);
+    border: 2px solid rgba(31, 146, 223, 0.781);
+}
